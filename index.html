@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,500&family=Sen:wght@400;700;800&family=Spinnaker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Jobs -- Smashing Magazine</title>
+</head>
+<body>
+    <section>
+        <div class="Header-main">
+            <div class="Header">
+                <div class="Header-logo">
+                    <img class="Logo-1" src="./Picture/logo.svg">
+                </div>
+                <div class="Header-menu">
+                    <ul class="Header-menu-ul">
+                        <li class="Header-menu-items" id="Item-1"><a data-instant="" class="Menu-items-anchor" href="#">Articles</a></li>
+                        <li class="Header-menu-items" id="Item-2"><a data-instant="" class="Menu-items-anchor" href="#">Guides</a></li>
+                        <li class="Header-menu-items" id="Item-3"><a data-instant="" class="Menu-items-anchor" href="#">Books</a></li>
+                        <li class="Header-menu-items" id="Item-4"><a data-instant="" class="Menu-items-anchor" href="#">Workshops</a></li>
+                        <li class="Header-menu-items" id="Item-5"><a data-instant="" class="Menu-items-anchor" href="#">Membership</a></li>
+
+                        <!-- <li class="nav-item nav-item-6 nav-item--active"><a data-instant="" class="nav-item-link" href="/jobs/">Job Board</a></li>
+                        <li class="nav-item nav-item-7 "><a data-instant="" class="nav-item-link" href="/the-smashing-newsletter/">Newsletter</a></li>       
+                        <li class="nav-item nav-item-8"><a class="nav-item-link" href="https://podcast.smashingmagazine.com">Podcasts</a></li>
+                        <li class="nav-item nav-item-9 "><a class="nav-item-link" href="/write-for-us/">Write for us</a></li>
+                        <li class="nav-item nav-item-10"><a class="nav-item-link" href="mailto:advertising@smashingmagazine.com">Advertise with us</a></li> -->
+                        
+                            <li role="none" id="Item-6" class="Header-menu-btn-div">
+                              <button class="Header-menu-btn" type="button" onclick="mobileMenu()">
+                                    More
+                              </button>
+                              <!-- <img src="./Picture/download.svg"> -->
+                            </li>
+                          </ul>
+                </div>
+
+
+
+
+
+                <div class="Toggle-menu-main" id="myMenu">
+                    <ul class="main-nav__secondary">
+                        <li id="nav-i-6" class="nav-item nav-item-1 "><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Articles</a></li>
+                        <li id="nav-i-7" class="nav-item nav-item-2 "><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Guides</a></li>
+                        <li id="nav-i-8" class="nav-item nav-item-3 "><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Books</a></li>
+                        <li id="nav-i-9" class="nav-item nav-item-4 "><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Workshops</a></li>
+                        <li id="nav-i-10" class="nav-item nav-item-5 "><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Membership</a></li>
+                        <!-- <li id="nav-i-1" class="nav-item nav-item-6 nav-item--active"><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Job Board</a></li>
+                        <li id="nav-i-2" class="nav-item nav-item-7 "><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Newsletter</a></li>
+                        <li id="nav-i-3" class="nav-item nav-item-8"><a class="nav-item-link" href="#" tabindex="-1">Podcasts</a></li>
+                        <li id="nav-i-4" class="nav-item nav-item-9 "><a class="nav-item-link" href="#" tabindex="-1">Write for us</a></li>
+                        <li id="nav-i-5" class="nav-item nav-item-10"><a class="nav-item-link" href="#" tabindex="-1">Advertise with us</a></li> -->
+                    </ul>
+                    <ul class="main-nav__secondary" id="second-row">
+                        <li id="nav-i-1" class="nav-item nav-item-6 nav-item--active"><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Job Board</a></li>
+                        <li id="nav-i-2" class="nav-item nav-item-7 "><a data-instant="" class="nav-item-link" href="#" tabindex="-1">Newsletter</a></li>
+                        <li id="nav-i-3" class="nav-item nav-item-8"><a class="nav-item-link" href="#" tabindex="-1">Podcasts</a></li>
+                        <li id="nav-i-4" class="nav-item nav-item-9 "><a class="nav-item-link" href="#" tabindex="-1">Write for us</a></li>
+                        <li id="nav-i-5" class="nav-item nav-item-10"><a class="nav-item-link" href="#" tabindex="-1">Advertise with us</a></li>
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="Header-search">
+                    <i id="search-top" class="fa fa-search" aria-hidden="true"></i>
+                    <input class="search-input" inputmode="search" type="search" name="q" id="js-search-input" autocomplete="off" placeholder="Search articles..." aria-label="Search articles">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Job-board">
+            <div class="Job-inner">
+
+
+                <a href="#" role="button" onclick="mobileMenu2()" class="Btn-green" id="filters__trigger" aria-controls="switches" aria-expanded="false" tabindex="0">Filter
+                    <span class="plus-wrapper">
+                      <span class="plus">+</span>
+                    </span>
+                  </a>
+
+
+                <div class="Job-searc-2">
+                    <i id="search-2nd" class="fa fa-search" aria-hidden="true"></i>
+                    <input class="search-input-second" inputmode="search" type="search" name="q" id="js-search-input" autocomplete="off" placeholder="Search jobs..." aria-label="Search articles">
+                </div>
+
+
+                <div class="Req-main">
+                    
+                    <div class="Req-1">
+                        <div class="First-1" id="Radio-1" onclick="radioStyle()">Remote</div>
+                        <div class="First-2" id="Radio-2" onclick="radioStyle2()">All</div>
+                    </div>
+                    <div class="Req-2">
+                        <div class="First-3" id="Radio-3" onclick="radioStyle3()">Full-Time</div>
+                        <div class="First-4" id="Radio-4" onclick="radioStyle4()">Part-Time</div>
+                        <div class="First-5" id="Radio-5" onclick="radioStyle5()">All</div>
+                    </div>
+                    <div class="Req-3">
+
+                        <div class="First-6" id="Radio-6" onclick="radioStyle6()">Design</div>
+                        <div class="First-7" id="Radio-7" onclick="radioStyle7()">Programming</div>
+                        <div class="First-8" id="Radio-8" onclick="radioStyle8()">All</div>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Books-main">
+            <div class="Books-heading">
+                <div class="Printed" id="book-printing" onclick="colorChange2(), display2()">
+                    <p>PRINTED BOOKS</p>
+                </div>
+                <div class="Ebooks" id="book-ebook" onclick="colorChange(), display()">
+                    <p>EBOOKS</p>
+                </div>
+            </div>
+        </div>
+        <div class="Books-details" id="Book-1-p">
+            <div class="Books-inner">
+                <div class="Books-data">
+                    <div class="Books-head">
+                        <div class="Book-image">
+                            <img src="./Picture/smashing-logo.png" alt="Pic" class="Book-image-Down">
+                        </div>
+                        <div class="Book-top">
+                            <p class="book-top-sub">OUR CHARMING</p>
+                            <h1><b>Printed Books</b></h1>
+                        </div>
+                    </div>
+                    <div class="Books-body">
+
+                        <span class="cricket-bat">
+                            <span class="cricket-bat-text">15 printed books</span>
+                        </span>
+
+                        <p>
+                            <strong>Quality matters.</strong> Our printed books deliver in-depth knowledge and expertise shared by experts from the industry. They are our editorial flagships —&nbsp;and the most recent one, <a style="color: #fff;" data-instant="" href="/printed-books/image-optimization/">Image Optimization</a> is a practical guide on everything around images, from formats to delivery and maintenance.
+                          </p>
+                    </div>
+                </div>
+                <div class="Books-pic">
+                    <img class="Cat" src="./Picture/cat-harry-potter.svg" alt="Cat-pic">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="Books-details-2" id="Book-2-e">
+            <div class="Books-inner">
+                <div class="Books-data">
+                    <div class="Books-head">
+                        <div class="Book-image">
+                            <img src="./Picture/smashing-logo.png" alt="Pic" class="Book-image-Down">
+                        </div>
+                        <div class="Book-top">
+                            <p class="book-top-sub">OUR CHARMING</p>
+                            <h1><b>eBooks</b></h1>
+                        </div>
+                    </div>
+                    <div class="Books-body">
+
+                        <span class="cricket-bat">
+                            <span class="cricket-bat-text">47 books</span>
+                        </span>
+                        <p>
+                            <strong>PDF, ePUB, Amazon Kindle.</strong> With a range of topics from design to development and everything in between, our eBook bundles contain everything you need to start crafting well-designed and well-built websites today.
+                          </p>
+                    </div>
+                </div>
+                <div class="Books-pic">
+                    <img class="Cat" src="./Picture/goldfish.svg" alt="Cat-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Job-main">
+            <div class="Job-inner-2">
+                <div class="Job-sub-h">
+                    <p class="jobs__description">
+                        <strong>Job Board</strong> that helps designers and developers find great jobs, and connect with great companies.
+                    </p>
+                </div>
+                <div class="Jon-btn-main">
+                    <div class="Line-1"> </div>
+                    <a href="#" class="Job-btn-1">
+                        Find a job&nbsp;↓
+                        </a>
+                    <a href="/jobs/post" class="Job-btn-2">
+                            Post a job&nbsp;→
+                        </a>
+                    <div class="Line-1"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Job-posts-main">
+            <div class="Job-posts-inner">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Work can be done remotely <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/Avenga_logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">(Senior) Web Developer PHP / Drupal / TYPO3 (w/m/x)</a>
+                        <p> Komplexe Web-Projekte sind genau unser Ding. Wir begeistern namhafte Unternehmen mit unserer Beratung, sauberem Code und schaffen einzigartige User Experiences. Als globales Experten-Team vereinen wir die Kreativität und Innovation einer …
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">full-time</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — Work </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2">can be done</span> <br><span class="Extra-2">remotely</span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-1">
+                <div class="Job-posts-inner-2">
+
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Remote (US Based) <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/rxmg-logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">Full Stack Developer</a>
+                        <p>  RXMG is a California-based digital advertising company that helps consumers connect with offers that can improve their financial lives. We strive to be the best at digital performance marketing by taking a holistic approach. All of our actions are …
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">full-time</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2">Remote (US</span> <br><span class="Extra-2">Based)</span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Minneapolis, MN <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/RKMC-logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">User Experience Designer</a>
+                        <p>   RK Management Consultants, Inc. (RKMC) supports global Fortune 500 organizations in their mission of creating dynamic web products catering to usability with human-centric design.
+                            We are seeking multiple motivated, passionate and innovative User …                            
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">full-time</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2">Minneapolis, MN</span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Philadelphia, PA <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/Cesium_logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">JS Developer, Smart Construction</a>
+                        <p>   We are looking for an experienced JS Developer to join Cesium’s Smart Construction Solutions Team. As part of the engineering team you will work across all levels of the stack to build Smart Construction applications that are pushing the boundaries …                           
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">full-time</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2">Pheladelphia, PA</span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p> <i style="display: none; color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/Twitter_Avatar_oaegex.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">Product Designer, Platform</a>
+                        <p>   At Swell, we are building the future of ecommerce. Our platform enables international merchants to create unique, sophisticated customer experiences with our customizable APIs and data models, and a dashboard made for non-technical users. …
+                          
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">full-time</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3"> </span> <i style="color: red; font-size: 13px; margin-right: 5px; display: none;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME, $225 FOR 60 DAYS —</h1>
+                        <p>Remote — Stockdorf oder Hengersberg, <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i><br>Germany</p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/webasto-logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">IT Full Stack Application Developer (m/w/d) Manufacturing</a>
+                        <p>    Wir suchen Verstärkung im Bereich IT. Kommen Sie in unser Team in Stockdorf oder Hengersberg als
+                            IT Full Stack Application Developer (m/w/d) Manufacturing | Webasto Gruppe | Stockdorf oder Hengersberg | Vollzeit | ab sofort
+                            Die Webasto Gruppe ist …
+                            
+                          
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">full-time $225</span><br>
+                            <span class="job__duration">For 60 days</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote —</span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br>Stockdorf oder<span class="Extra-2"></span> <br><span class="Extra-2">Hengersberg, <br> </span><span style="padding-right: 22px;">Germany</span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>0.0 - 40.0 HOURS —</h1>
+                        <p>Remote — Delft <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/exact-logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">US Designer</a>
+                        <p>    Bij Exact geloven we in digitalisering van customer service. Daarom breiden we ons Digital Engagement Team uit. We zijn op zoek naar een UX Designer om geweldige gebruikerservaringen te creëren voor digital service journeys. En waar je carrière …
+
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">0.0 - 40.0 HOURS</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — Delft </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Santa Rosa California <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/cunexuslogo_logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">Full stack .Net developer</a>
+                        <p>  We are seeking a start-up minded remote Full Stack Developer with 5+ years’ experience who is passionate about working with other smart people to produce quality software. This role will work on our foundation product in the FinTech sector. The …
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FULL TIME</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — Santa </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br>Rosa California<span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Anywhere (HQ in Philly) <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/P21_logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">UX Engineer</a>
+                        <p>   Based in Philadelphia, Pinnacle 21 is a leader in clinical trial data software and services. Our vision is a clean data pipeline that ends in a successful regulatory submission. We&amp;rsquo;re an established startup that builds software to streamline …
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FULL TIME</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br>Anywhere (HQ in<span class="Extra-2"></span> <br>Philly)<span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — USA <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/Constructive-C-logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">Senior Interactive Designer for Social Impact Agency (F/T, Remote) </a>
+                        <p>    Constructive, a leading social impact design firm that helps advance social, environmental, and economic justice, is looking to add a Senior Interactive Designer to our team who has exceptional design skills and an insatiable hunger to create …
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FULL TIME</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — USA </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Annapolis, MD, USA <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/UMCES.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">Web Developer (Faculty Research Assistant)</a>
+                        <p>    The University of Maryland Center for Environmental Science (UMCES) invites applications for a Web Developer position. The successful candidate will work with an established and dynamic team in partnership with Chesapeake Bay Program in Annapolis, …
+
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FULL TIME</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Annapolis, MD, </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br>USA<span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>38 HOURS —</h1>
+                        <p>Remote — Arnhem <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/aliander-logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">Senior Scrum Master</a>
+                        <p>     Jij weet waar je energie in moet steken. Op zowel de afdeling System Operations als in je eigen scrumteams. Als scrum master weet je precies hoe je jouw team in een flow krijgt. Hoe werken ze zo optimaal mogelijk samen? En hoe kan het beste …
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">38 HOURS</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br>Arnhem<span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Anywhere <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/baymard-sq-logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">E-Commerce UX Auditor (Q1 2022)</a>
+                        <p>      Are you good at analyzing UX on websites using heuristics? Do you like discussing the smallest of UX details?
+                            We’re seeking two full-time remote UX Auditors for our auditing team for Q1 2022.
+                            Baymard Institute is an independent e-commerce UX …
+                            
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FULL TIME</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br>Anywhere<span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Bostan, MA <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/LoseIt_logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">US Designer (iOX)</a>
+                        <p>  Lose It! is looking for a UX Designer to help improve the experience of our top-rated iOS app. We’re looking for a self-starter with a blend of interaction design, visual design, and prototyping skills that loves trying new ideas and iterating …
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FULL TIME</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Bostan, MA </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Anywhere in Germany or Switzerland <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/LoseIt_logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">US Designer (iOX)</a>
+                        <p>  Lose It! is looking for a UX Designer to help improve the experience of our top-rated iOS app. We’re looking for a self-starter with a blend of interaction design, visual design, and prototyping skills that loves trying new ideas and iterating …
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FULL TIME</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Bostan, MA </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br><span class="Extra-2"></span> <br><span class="Extra-2"></span></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+
+                    <div class="for-mobile">
+                        <h1>FREELANCE —</h1>
+                        <p>Remote — Anywhere <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/required-square.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">Frontend development & Project Management</a>
+                        <p>  Deine neue Rolle als Frontend Entwickler:in In deiner neuen Rolle als Frontend Entwickler:in setzt du responsive Websites und komplexe Webanwendungen um. Zusammen mit deinem neuen Team entwickelst du massgeschneiderte Frontend-Designs für die …  
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FULL TIME</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br>Anywhere in<span class="Extra-2"></span> <br>Germany or <span class="Extra-2"></span><br><span style="padding-right: 20px;">Switzerland</span>
+                          </div>
+                    </div>
+                </div>
+            </div> 
+            
+            
+
+            <div class="Job-posts-inner" id="Inner-posts-2">
+                <div class="Job-posts-inner-2">
+
+                    <div class="for-mobile">
+                        <h1>FULL-TIME —</h1>
+                        <p>Remote — Remote (US Based) <i style="color: red; font-size: 13px; margin-left: 5px;" class="fa fa-map-marker" aria-hidden="true"></i></p>
+                    </div>
+
+
+                    <div class="Extra">
+                    <div class="P-pic">
+                        <img src="./Picture/becomes-logo.png" alt="Logo" class="P-pic-inner">
+                    </div>
+                    </div>
+                    <div class="P-data">
+                        <a href="#" class="job__title">Senior Frontend Developer</a>
+                        <p>  Becomes is looking for a Freelance Frontend Developer to help develop complex, interactive, and responsive interfaces of marketing websites.
+                            What you will need:  High degree of proficiency and understanding in HTML/SCSS Proficiency in JavaScript …
+
+                        </p>
+                        <a class="P-btn-btn" href="#">
+                            Details&nbsp;→
+                          </a>
+                    </div>
+                    <div class="P-time">
+                        <div class="job__meta">
+                            <span class="job__duration">FREELANCE</span>
+                          </div>
+                          <div class="job__meta job__meta--floated">
+                            <span class="job__location">
+                              <span class="Extra-3">Remote — </span> <i style="color: red; font-size: 13px; margin-right: 5px;" class="fa fa-map-marker" aria-hidden="true"></i> <br>Anywhere<span class="Extra-2"></span> <br> <span class="Extra-2"></span><br><span style="padding-right: 20px;"></span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Logos-main">
+            <div class="Logos-heading">
+                <h6 style=" letter-spacing: 0.4px;" class="jobs__companies__heading">Trusted &amp; Used by</h6>
+            </div>
+            <div class="Logos-pic">
+                <div class="Logos-pic-inner">
+                    <div class="Logo-section"><img src="./Picture/Logo-1.svg" alt="Logo"></div>
+                    <div class="Logo-section"><img src="./Picture/Logo-2.svg" alt="Logo"></div>
+                    <div class="Logo-section"><img src="./Picture/Logo-3.svg" alt="Logo"></div>
+                    <div class="Logo-section"><img src="./Picture/Logo-4.svg" alt="Logo"></div>
+                    <div class="Logo-section"><img src="./Picture/Logo-5.svg" alt="Logo"></div>
+                    <div class="Logo-section"><img src="./Picture/Logo-6.svg" alt="Logo"></div>
+                    <div class="Logo-section"><img src="./Picture/Logo-7.svg" alt="Logo"></div>
+                    <div class="Logo-section"><img src="./Picture/Logo-8.svg" alt="Logo"></div>
+                    <div class="Logo-section"><img src="./Picture/Logo-9.svg" alt="Logo"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Foote-main">
+            <div class="Footer-top">
+                <h4 class="footer__topics__title" id="topics">Browse All Smashing Magazine Topics</h4>
+                <div class="List-for-mobile">
+                <ul class="footer__topics__list">
+                    
+                    <li class="footer__topics__item">
+                        <a href="/category/accessibility">Accessibility</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/android">Android</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/animation">Animation</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/apps">Apps</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/css">CSS</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/design">Design</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/design-patterns">Design Patterns</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/design-systems">Design Systems</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/e-commerce">E-Commerce</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/freebies">Freebies</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/graphics">Graphics</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/html">HTML</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/illustrator">Illustrator</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/inspiration">Inspiration</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/ios">iOS</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/javascript">JavaScript</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/mobile">Mobile</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/pattern-libraries">Pattern Libraries</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/performance">Performance</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/photoshop">Photoshop</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/plugins">Plugins</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/react">React</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/responsive-design">Responsive Design</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/service-workers">Service Workers</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/sketch">Sketch</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/typography">Typography</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/ui">UI</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/usability">Usability</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/user-experience">User Experience</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/wallpapers">Wallpapers</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/web-design">Web Design</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/wordpress">WordPress</a>
+                    </li>
+                  
+                    <li class="footer__topics__item">
+                        <a href="/category/workflow">Workflow</a>
+                    </li>
+                  
+                </ul>
+            </div>
+
+
+            </div>
+            <div class="Footer-bottom">
+                <div class="Footer-paras">
+                <p class="Italic" style="font-style: italic;">With a commitment to quality content for the design community.</p>
+                <p class="Italic-2" >Founded by Vitaly Friedman and Sven Lennartz. <span class="lining-figures">2006–2022</span>.</p>
+                <p class="Italic-3">Smashing is proudly running on <a style="color: #fff;" href="https://www.netlify.com/?utm_source=link&amp;utm_medium=parter&amp;utm_campaign=sm-footer">Netlify</a>.</p>
+                <p class="Italic-4">Fonts by <a style="color: #fff;" href="http://latinotype.com/">Latinotype</a>.</p>
+                </div>
+                <div class="Footer-bottom-2">
+                    <ul class="footer__links">
+                        <li>✎ <a href="/write-for-us/">Write for us</a>
+                        </li>
+                        <li>
+                          <a href="/contact/">Contact us</a>
+                        </li>
+                        <li>
+                          <a href="/about/">About us (Impressum)</a>
+                        </li>
+                        <li>
+                          <a href="/privacy-policy/">Privacy policy</a>
+                        </li>
+                        <li>
+                          <a href="/auth/">Membership login</a>
+                        </li>
+                        <li>
+                            <a href="/delivery-times/">Delivery times</a>
+                          </li>
+                            <li>
+                          <a href="mailto:advertising@smashingmagazine.com?subject=Let’s talk about advertising">Advertise</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./javascript.js"></script>
+</body>
+</html>
